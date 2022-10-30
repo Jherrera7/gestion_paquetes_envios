@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <div class="jumbotron">
+    <h1 class="display-4">BIENVENIDOS A LA MEJOR EMPRESA DE MENSAJERIA</h1>
+    <P class="lead">Ofrecemos una serie de diferentes opciones de envío, cada uno con un costo específico asociado dependiendo a las características del paquete, es decir, un envío mensajería, paquetes básicos y paquetes sobre dimensionados.</P>
+    <hr class="my-4" />
+    <p>Si eres parte de la familia UTB MENSAJERIA, Inicia sesión y gestiona tus enviós</p>
+    <a class="btn btn-primary btn-lg" href="{{url_for('login')}}" role="button">Iniciar Sesión</a>
+  </div>
+{% endblock %}
